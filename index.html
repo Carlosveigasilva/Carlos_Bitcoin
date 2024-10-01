@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Bitcoin</title>
+    <style>
+        /* Estilos Globais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: #f7931a;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 3em;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        /* Navegação */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #f7931a;
+        }
+
+        /* Estilo das Abas */
+        section {
+            display: none;
+            padding: 80px 20px;
+            margin-top: 20px;
+        }
+
+        section:target {
+            display: block;
+            animation: fadeIn 1s ease;
+        }
+
+        /* Estilo de cada aba */
+        #valor {
+            background-color: #fff;
+        }
+
+        #historia {
+            background-color: #fafafa;
+        }
+
+        #tecnologia {
+            background-color: #fff;
+        }
+
+        #futuro {
+            background-color: #fafafa;
+        }
+
+        /* Animações */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Estilo de rodapé */
+        footer {
+            background: #333;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Estilo de conteúdo */
+        h2 {
+            color: #f7931a;
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav a {
+                padding: 10px 15px;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Blog do Bitcoin</h1>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#valor">Valor</a>
+        <a href="#historia">História</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#futuro">Futuro</a>
+    </nav>
+
+    <!-- Seção: Valor -->
+    <section id="valor">
+        <h2>O Valor do Bitcoin</h2>
+        <p>O Bitcoin é considerado uma revolução no mundo financeiro. Seu valor é determinado pela oferta e demanda, além de fatores como adoção por grandes investidores e seu limite de emissão (apenas 21 milhões de unidades). A descentralização e a segurança proporcionadas pela blockchain são elementos centrais que garantem a confiança dos usuários e investidores.</p>
+        <p>O Bitcoin é conhecido por ser volátil, com seu preço variando drasticamente em períodos curtos de tempo. No entanto, muitos acreditam que, a longo prazo, ele pode ser uma reserva de valor semelhante ao ouro digital.</p>
+    </section>
+
+    <!-- Seção: História -->
+    <section id="historia">
+        <h2>A História do Bitcoin</h2>
+        <p>O Bitcoin foi criado em 2008 por uma pessoa ou grupo de pessoas sob o pseudônimo de Satoshi Nakamoto. Seu white paper foi publicado explicando como uma moeda descentralizada e digital poderia funcionar sem a necessidade de uma entidade central para emitir ou validar transações.</p>
+        <p>Em 2009, o primeiro bloco da blockchain do Bitcoin foi minerado, conhecido como o "bloco gênese". Desde então, o Bitcoin passou de uma curiosidade entre entusiastas de tecnologia para um dos ativos mais valiosos do mundo.</p>
+    </section>
+
+    <!-- Seção: Tecnologia -->
+    <section id="tecnologia">
+        <h2>A Tecnologia por Trás do Bitcoin</h2>
+        <p>A tecnologia que sustenta o Bitcoin é a blockchain, um livro-razão distribuído e imutável. Cada bloco na cadeia contém um registro das transações verificadas. Uma vez adicionado, não pode ser alterado, proporcionando uma camada de segurança robusta.</p>
+        <p>Além disso, o Bitcoin utiliza um algoritmo de consenso chamado Prova de Trabalho (PoW), no qual os mineradores competem para resolver problemas criptográficos complexos, garantindo a integridade da rede e emitindo novos bitcoins como recompensa.</p>
+    </section>
+
+    <!-- Seção: Futuro -->
+    <section id="futuro">
+        <h2>O Futuro do Bitcoin</h2>
+        <p>O futuro do Bitcoin é objeto de muito debate. Alguns acreditam que ele substituirá as moedas fiduciárias como uma forma de dinheiro global, enquanto outros veem o Bitcoin mais como uma reserva de valor do que um meio de troca.</p>
+        <p>Independente do que o futuro reserva, o Bitcoin continua a ganhar adoção, tanto institucional quanto individual, e sua influência no sistema financeiro global é inegável.</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Blog Bitcoin - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
